@@ -6,6 +6,16 @@
   src: url(../assets/fonts/HelveticaNeue-Medium-11.woff) format("woff");
 }
 
+html {
+  overflow: hidden;
+}
+
+body {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 p{
   font-family: Medium;
   color: white;

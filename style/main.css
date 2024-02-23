@@ -51,7 +51,7 @@ a{
 }
 
 a:hover{
-  color: #3137df;
+  color: blue;
 }
 
 #viewer {
@@ -77,11 +77,10 @@ a:hover{
 
 .psv-loader {
   display: none;
-  background-color: black;
 }
 
 .psv-background {
-  color: black;
+  color: white;
 }
 
 #button {
@@ -90,7 +89,7 @@ a:hover{
   display: block;
   margin-left: 50vw;
   z-index: 10;
-  background-color: #3137df;
+  background-color: blue;
   color: white;
   border: black 2px;
   transform: translate(-50%, 0);
@@ -104,13 +103,13 @@ a:hover{
 
 #button:hover{
   background-color: white;
-  color: #3137df;
+  color: blue;
   border: 1px solid white;
   transition: all 4ms;
   cursor: crosshair;
 }
 
 #button:hover p{
-  color: #3137df;
+  color: blue;
 }
 

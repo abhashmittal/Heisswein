@@ -7,19 +7,18 @@
 }
 
 .show {
-  transform: translateY(-100vh);
+  opacity: 0%;
   transition: all 1s ease;
 }
 
 #slide{
   width: 100vw;
   height: 100vh;
-  z-index: 3;
-  background-color: #3137df;
   position: absolute;
   transition: all 1s ease;
   display: flex;
   align-items: center;
+  mix-blend-mode: difference;
 }
 
 .konzept{
@@ -54,6 +53,7 @@ a:hover{
 #viewer {
   width: 100vw;
   height: 100vh;
+  mix-blend-mode: exclusion;
 }
 
 #navbar {
@@ -63,7 +63,7 @@ a:hover{
 #info {
   z-index: 100;
   position: fixed;
-  bottom: 1.25em;
+  bottom: 1em;
   width: 100vw;
 }
 
@@ -109,5 +109,4 @@ a:hover{
 #button:hover p{
   color: #3137df;
 }
-
 

@@ -1,4 +1,4 @@
-@import "reset.css";
+@import "_reset.css";
 @import "https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.css";
 
 @font-face {
@@ -6,7 +6,36 @@
   src: url(../assets/fonts/HelveticaNeue-Medium-11.woff) format("woff");
 }
 
+.show {
+  transform: translateY(-100vh);
+  transition: all 1s ease;
+}
+
+#slide{
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  background-color: #3137df;
+  position: absolute;
+  transition: all 1s ease;
+  display: flex;
+  align-items: center;
+}
+
+.konzept{
+  margin: auto;
+  width: 95vw;
+}
+
 p{
+  font-family: Medium;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 110%;
+}
+
+h1{
   font-family: Medium;
   color: white;
   font-size: 1.5em;
@@ -38,8 +67,6 @@ a:hover{
   width: 100vw;
 }
 
-
-
 .psv-navbar {
   display: none; 
 }
@@ -61,6 +88,7 @@ a:hover{
   z-index: 10;
   background-color: #3137df;
   color: white;
+  border: black 2px;
   transform: translate(-50%, 0);
   border-radius: 2em;
   padding-top: 0.75em;
@@ -81,4 +109,5 @@ a:hover{
 #button:hover p{
   color: #3137df;
 }
+
 

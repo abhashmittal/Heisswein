@@ -18,7 +18,7 @@
   transition: all 1s ease;
   display: flex;
   align-items: center;
-  mix-blend-mode: difference;
+  mix-blend-mode: exclusion;
 }
 
 .konzept{
@@ -36,7 +36,7 @@ p{
 
 h1{
   font-family: Medium;
-  color: white;
+  color: yellow;
   font-size: 1.5em;
   text-align: center;
   line-height: 110%;
@@ -53,7 +53,7 @@ a:hover{
 #viewer {
   width: 100vw;
   height: 100vh;
-  mix-blend-mode: exclusion;
+  mix-blend-mode: multiply;
 }
 
 #navbar {

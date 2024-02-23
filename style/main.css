@@ -6,6 +6,7 @@
   src: url(../assets/fonts/HelveticaNeue-Medium-11.woff) format("woff");
 }
 
+
 .show {
   opacity: 0%;
   transition: all 1s ease;
@@ -16,6 +17,7 @@
   height: 100vh;
   position: absolute;
   transition: all 1s ease;
+  z-index: 3;
   display: flex;
   align-items: center;
 }
@@ -35,7 +37,7 @@ p{
 
 h1{
   font-family: Medium;
-  color: exclusion;
+  color: white;
   font-size: 1.5em;
   text-align: center;
   line-height: 110%;
@@ -52,7 +54,7 @@ a:hover{
 #viewer {
   width: 100vw;
   height: 100vh;
-  mix-blend-mode: multiply;
+  mix-blend-mode: exclusion;
 }
 
 #navbar {

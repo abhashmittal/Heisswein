@@ -6,10 +6,6 @@
   src: url(../assets/fonts/HelveticaNeue-Medium-11.woff) format("woff");
 }
 
-html{
-  background-color: black;
-}
-
 .show {
   opacity: 0%;
   transition: all 1s ease;

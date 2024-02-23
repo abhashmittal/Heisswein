@@ -7,7 +7,7 @@
 </head>
 
 <!-- the viewer container must have a defined size -->
-<div id="info"> <p>Mi.– Sa.16–24 Uhr<br><a href="https://maps.app.goo.gl/ETxEpkSf7huaAYPL7">Konradstr.40, 8005 Zürich</a></p></div>
+<div id="info"> <p>Closed for Umbau – Opening 13. März 2024<br><a href="https://maps.app.goo.gl/ETxEpkSf7huaAYPL7">Konradstr.40, 8005 Zürich</a></p></div>
 <div id="button"><p>Heisswein</p></a></div>
 <div id="viewer"></div>
 
@@ -22,7 +22,8 @@
 
 const viewer = new PhotoSphereViewer.Viewer({
         container: document.querySelector('#viewer'),
-        panorama: 'assets/test4.jpg',
+        panorama: 'assets/umbau.jpg',
+        defaultZoomLvl: '30',
     });
 
 </script>

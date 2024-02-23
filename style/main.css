@@ -6,21 +6,12 @@
   src: url(../assets/fonts/HelveticaNeue-Medium-11.woff) format("woff");
 }
 
-html {
-  overflow: hidden;
-}
-
-body {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
 p{
   font-family: Medium;
   color: white;
   font-size: 1.5em;
   text-align: center;
+  line-height: 110%;
 }
 
 a{
@@ -33,7 +24,7 @@ a:hover{
 
 #viewer {
   width: 100vw;
-  height: 100vh
+  height: 100vh;
 }
 
 #navbar {
@@ -43,9 +34,11 @@ a:hover{
 #info {
   z-index: 100;
   position: fixed;
+  bottom: 1.25em;
   width: 100vw;
-  margin-top: 87.5vh;
 }
+
+
 
 .psv-navbar {
   display: none; 

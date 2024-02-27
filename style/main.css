@@ -30,10 +30,10 @@ html {
 }
 
 .konzept {
-  position: relative;
   margin: auto;
-  top: 15vh;
   width: 95vw;
+  margin-top: 50vh;
+  transform: translate(0, -50%);
 }
 
 
@@ -47,10 +47,10 @@ p{
 
 h1{
   font-family: Windsor;
-  color: black;
+  color: #ff5100;
   font-size: 7vw;
   text-align: center;
-  line-height: 110%;
+  line-height: 105%;
 }
 
 a{
@@ -118,7 +118,7 @@ a:hover{
 }
 
 }
-/* 
+
 @media screen and (min-width: 480px) {
   .show {
     visibility: hidden;
@@ -222,4 +222,4 @@ a:hover{
   
   }
 
- */
+

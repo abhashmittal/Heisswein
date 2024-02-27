@@ -30,7 +30,6 @@
   margin-left: auto;
   margin-right: auto;
   width: 95vw;
-  overflow-y: auto;
 }
 
 
@@ -134,7 +133,6 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
     width: 95vw;
-    overflow-y: auto;
   }
   
   

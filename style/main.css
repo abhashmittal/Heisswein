@@ -22,19 +22,17 @@ html {
 }
 
 #slide {
-  border: 1px red solid;
   width: 100vw;
   height: 100vh;
-  position: fixed;
-  display: flex;
+  position: absolute;
   align-items: center;
   mix-blend-mode: multiply;
 }
 
 .konzept {
   position: relative;
-  border: 1px black solid;
   margin: auto;
+  top: 15vh;
   width: 95vw;
 }
 
@@ -50,7 +48,7 @@ p{
 h1{
   font-family: Windsor;
   color: black;
-  font-size: 6.5vw;
+  font-size: 7vw;
   text-align: center;
   line-height: 110%;
 }

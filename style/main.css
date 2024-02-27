@@ -40,7 +40,7 @@ html {
 p{
   font-family: Medium;
   color: white;
-  font-size: 6vw;
+  font-size: 5vw;
   text-align: center;
   line-height: 110%;
 }
@@ -143,7 +143,7 @@ a:hover{
   p{
     font-family: Medium;
     color: white;
-    font-size: 3vh;
+    font-size: 5vw;
     text-align: center;
     line-height: 110%;
   }
@@ -151,7 +151,7 @@ a:hover{
   h1{
     font-family: Windsor;
     color: #ff5100;
-    font-size: 4vh;
+    font-size: 6vw;
     text-align: center;
     line-height: 110%;
   }

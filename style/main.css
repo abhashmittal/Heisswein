@@ -12,37 +12,37 @@
 }
 
 .show {
-  opacity: 0%;
-  transition: all 1s ease;
+  visibility: hidden;
 }
 
 #slide{
   width: 100vw;
   height: 100vh;
   position: absolute;
-  transition: all 1s ease;
   display: flex;
   align-items: center;
-  mix-blend-mode: multiply;
+  mix-blend-mode: difference;
 }
 
 .konzept{
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 95vw;
+  overflow-y: auto;
 }
 
 p{
   font-family: Medium;
   color: white;
-  font-size: 1em;
+  font-size: 2.25vh;
   text-align: center;
   line-height: 110%;
 }
 
 h1{
   font-family: Windsor;
-  color: blue;
-  font-size: 1.5em;
+  color: white;
+  font-size: 4vh;
   text-align: center;
   line-height: 110%;
 }
@@ -97,10 +97,6 @@ a:hover{
   padding-left: 1em;
   padding-right: 1em;
   opacity: 100%;
-}
-
-#button p{
-  font-size: 1.5em;
 }
 
 

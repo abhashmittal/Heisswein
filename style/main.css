@@ -34,7 +34,7 @@
 p{
   font-family: Medium;
   color: white;
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
   line-height: 110%;
 }
@@ -42,7 +42,7 @@ p{
 h1{
   font-family: Windsor;
   color: blue;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   line-height: 110%;
 }
@@ -99,6 +99,9 @@ a:hover{
   opacity: 100%;
 }
 
+#button p{
+  font-size: 1.5em;
+}
 
 
 #button:hover{

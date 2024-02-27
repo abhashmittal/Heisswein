@@ -11,6 +11,10 @@
   src: url(../assets/fonts/WindsorBT-Roman.woff) format("woff");
 }
 
+html {
+  overflow: hidden;
+}
+
 @media screen and (max-width: 480px) {
 
 .show {
@@ -83,7 +87,7 @@ a:hover{
 }
 
 #button {
-  top: 0.75vh;
+  top: 1.5vh;
   position: fixed;
   display: block;
   margin-left: 50vw;
@@ -186,7 +190,7 @@ a:hover{
   }
   
   #button {
-    top: 0.75vh;
+    top: 1.5vh;
     position: fixed;
     display: block;
     margin-left: 50vw;

@@ -25,16 +25,16 @@ html {
   border: 1px red solid;
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   display: flex;
   align-items: center;
   mix-blend-mode: multiply;
 }
 
 .konzept {
+  position: relative;
   border: 1px black solid;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 95vw;
 }
 

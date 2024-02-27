@@ -6,6 +6,10 @@
   src: url(../assets/fonts/HelveticaNeue-Medium-11.woff) format("woff");
 }
 
+@font-face {
+  font-family: Windsor;
+  src: url(../assets/fonts/WindsorBT-Roman.woff) format("woff");
+}
 
 .show {
   opacity: 0%;
@@ -17,9 +21,9 @@
   height: 100vh;
   position: absolute;
   transition: all 1s ease;
-  z-index: 3;
   display: flex;
   align-items: center;
+  mix-blend-mode: multiply;
 }
 
 .konzept{
@@ -36,9 +40,9 @@ p{
 }
 
 h1{
-  font-family: Medium;
-  color: white;
-  font-size: 1.5em;
+  font-family: Windsor;
+  color: blue;
+  font-size: 2em;
   text-align: center;
   line-height: 110%;
 }
@@ -54,7 +58,7 @@ a:hover{
 #viewer {
   width: 100vw;
   height: 100vh;
-  mix-blend-mode: exclusion;
+  mix-blend-mode: multiply;
 }
 
 #navbar {
@@ -76,9 +80,6 @@ a:hover{
   display: none;
 }
 
-.psv-background {
-  color: white;
-}
 
 #button {
   top: 0.75em;
@@ -98,10 +99,14 @@ a:hover{
   opacity: 100%;
 }
 
+
+
 #button:hover{
   background-color: white;
   color: blue;
   border: 1px solid white;
+  transform: scale(1.1);
+  transform: translate(-50%, 0);
   transition: all 4ms;
   cursor: crosshair;
 }

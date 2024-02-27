@@ -1,6 +1,6 @@
 const viewer = new PhotoSphereViewer.Viewer({
   container: document.querySelector('#viewer'),
-  panorama: 'assets/umbau.jpg',
+  panorama: 'assets/umbau4.jpg',
   defaultZoomLvl: '30',
 });
 

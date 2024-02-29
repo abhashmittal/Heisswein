@@ -1,6 +1,6 @@
 const viewer = new PhotoSphereViewer.Viewer({
   container: document.querySelector('#viewer'),
-  panorama: 'assets/umbau5.jpg',
+  panorama: 'assets/umbau4.jpg',
   defaultZoomLvl: '30',
 });
 
@@ -10,5 +10,6 @@ var slide = document.querySelector("#slide")
 var info = document.querySelector("#info")
 
 mybtn.addEventListener("click", function() {
-  slide.classList.toggle("show")
+  slide.classList.toggle("show"),
+  info.classList.toggle("hauab")
 });

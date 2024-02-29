@@ -23,12 +23,14 @@ html {
 
 #slide {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   position: absolute;
+  z-index: 3;
   display: flex;
   align-items: center;
   vertical-align: center;
-  mix-blend-mode: multiply;
+  overflow: scroll;
+  top: 14vh;
 }
 
 .konzept {
@@ -73,9 +75,14 @@ a:hover{
 
 #info {
   z-index: 100;
-  position: fixed;
+  position: absolute;
   bottom: 1.5vh;
   width: 100vw;
+  overflow: hidden;
+}
+
+.hauab {
+  opacity: 100;
 }
 
 .psv-navbar {

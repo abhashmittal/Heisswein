@@ -11,14 +11,18 @@
   src: url(../assets/fonts/WindsorBT-Roman.woff) format("woff");
 }
 
-html {
-  overflow: hidden;
-}
+
 
 @media screen and (max-width: 480px) {
 
 .show {
-  visibility: hidden;
+  margin-top: 100vh;
+  opacity: 0;
+  transition: all ease 1s;
+}
+
+.hide {
+  margin-top: -100vh;
 }
 
 #slide {
@@ -31,6 +35,12 @@ html {
   vertical-align: center;
   overflow: scroll;
   top: 14vh;
+  transition: all ease 1s;
+}
+
+#slide2 {
+  width: 100vw;
+
 }
 
 .konzept {
@@ -79,11 +89,13 @@ a:hover{
   bottom: 1.5vh;
   width: 100vw;
   overflow: hidden;
+  opacity: 100;
 }
 
 .hauab {
-  opacity: 100;
+  opacity: 0;
 }
+
 
 .psv-navbar {
   display: none; 
@@ -100,6 +112,7 @@ a:hover{
   margin-left: 50vw;
   z-index: 10;
   background-color: blue;
+  border: 1px solid blue;
   color: white;
   transform: translate(-50%, 0);
   border-radius: 25vw;
@@ -114,15 +127,14 @@ a:hover{
   background-color: white;
   color: blue;
   border: 1px solid white;
-  transform: scale(1.1);
   transform: translate(-50%, 0);
-  transition: all 4ms;
   cursor: crosshair;
 }
 
 #button:hover p{
   color: blue;
 }
+
 
 }
 
@@ -202,8 +214,7 @@ a:hover{
     display: block;
     margin-left: 50vw;
     z-index: 10;
-    background-color: blue;
-    color: white;
+    background-color: #0000ff;
     transform: translate(-50%, 0);
     border-radius: 25vw;
     padding-top: 1vh;

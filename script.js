@@ -10,6 +10,6 @@ var slide = document.querySelector("#slide")
 var info = document.querySelector("#info")
 
 mybtn.addEventListener("click", function() {
-  slide.classList.toggle("show"),
-  info.classList.toggle("hauab")
+  slide.classList.toggle("show")
 });
+

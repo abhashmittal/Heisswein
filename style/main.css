@@ -21,7 +21,7 @@ html {
 .show {
   margin-top: 100vh;
   opacity: 0;
-  transition: all ease 1s;
+  transition: all ease 0.5s;
 }
 
 .hide {
@@ -30,15 +30,15 @@ html {
 
 #slide {
   width: 100vw;
-  height: 85vh;
+  height: 100dvh;
   position: absolute;
   z-index: 3;
   display: flex;
   align-items: center;
   vertical-align: center;
   overflow: scroll;
-  /* top: 14vh; */
-  transition: all ease 1s;
+  padding-top: 10vh;
+  transition: all ease 0.5s;
 }
 
 #slide2 {

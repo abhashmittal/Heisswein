@@ -19,13 +19,13 @@ html {
 @media screen and (max-width: 480px) {
 
 .show {
-  margin-top: 100vh;
+  margin-top: 100dvh;
   opacity: 0;
   transition: all ease 0.5s;
 }
 
 .hide {
-  margin-top: -100vh;
+  margin-top: -100dvh;
 }
 
 #slide {
@@ -76,8 +76,8 @@ a:hover {
 }
 
 #viewer {
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
   mix-blend-mode: multiply;
 }
 

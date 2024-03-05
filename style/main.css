@@ -30,7 +30,7 @@ html {
 
 #slide {
   width: 100vw;
-  height: 100vh;
+  height: 97.5vh;
   position: absolute;
   z-index: 3;
   display: flex;
@@ -39,7 +39,6 @@ html {
   overflow: scroll;
   /* top: 14vh; */
   transition: all ease 1s;
-  padding-bottom: 1.5vh;
 }
 
 #slide2 {

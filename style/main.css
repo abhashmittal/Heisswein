@@ -38,6 +38,7 @@ html {
   vertical-align: center;
   overflow: scroll;
   padding-top: 10vh;
+  padding-bottom: 4vh;
   transition: all ease 0.5s;
 }
 

@@ -10,6 +10,21 @@ var slide = document.querySelector("#slide")
 var info = document.querySelector("#info")
 
 mybtn.addEventListener("click", function() {
-  slide.classList.toggle("show")
+
+  slide.classList.toggle("show");
+  mybtn.classList.toggle('active');
+  info.classList.toggle('active');
+
+
+  // if (document.getElementById("slide").style.opacity = 'blue') {
+  // document.getElementById("button").style.backgroundColor = '#ff5100',
+  // document.getElementById("info").style.visibility = 'hidden',
+  // slide.classList.toggle("show");
+  // } else {
+  //   slide.classList.toggle("show"),
+  //   document.getElementById("button").style.backgroundColor = 'blue'
+  //   document.getElementById("info").style.visibility = 'hidden'
+  // }  
 });
+
 

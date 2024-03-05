@@ -12,7 +12,7 @@
 }
 
 html {
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 
@@ -30,7 +30,7 @@ html {
 
 #slide {
   width: 100vw;
-  height: 90vh;
+  height: 85vh;
   position: absolute;
   z-index: 3;
   display: flex;

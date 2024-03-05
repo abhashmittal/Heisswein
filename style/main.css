@@ -39,6 +39,7 @@ html {
   overflow: scroll;
   /* top: 14vh; */
   transition: all ease 1s;
+  padding-bottom: 10vh;
 }
 
 #slide2 {

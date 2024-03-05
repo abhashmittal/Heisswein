@@ -11,6 +11,9 @@
   src: url(../assets/fonts/WindsorBT-Roman.woff) format("woff");
 }
 
+html {
+  overflow-y: hidden;
+}
 
 
 @media screen and (max-width: 480px) {

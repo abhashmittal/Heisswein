@@ -154,13 +154,13 @@ a:hover {
   opacity: 100%;
 }
 
-#button:hover{
+/* #button:hover{
   background-color: white;
   color: blue;
   border: 1px solid white;
   transform: translate(-50%, 0);
   cursor: crosshair;
-}
+} */
 
 #button:hover p{
   color: blue;

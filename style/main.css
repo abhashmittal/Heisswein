@@ -120,10 +120,26 @@ a:hover {
   display: none;
 }
 
+#nav {
+  z-index: 8;
+  position: fixed;
+  top: 1.5vh;
+  right: -75vw;
+  display: flex;
+  transition: all ease 0.5s;
+}
+
+#nav.active {
+  position: fixed;
+  top: 1.5vh;
+  right: 2.5vw;
+  display: flex;
+  transition: all ease 0.5s;
+}
+
 #button {
   top: 1.5vh;
   position: fixed;
-  display: block;
   margin-left: 50vw;
   z-index: 10;
   background-color: #0000ff;
@@ -135,23 +151,70 @@ a:hover {
   padding-left: 2vh;
   padding-right: 2vh;
   opacity: 100%;
+  transition: all ease 0.5s;
 }
+
+#button2 {
+  z-index: 10;
+  background-color: #0000ff;
+  color: white;
+  border-radius: 25vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  transition: all ease 0.5s;
+  margin-right: 1vw;
+  transition: all ease 1s;
+}
+
+#button2 a {
+  text-decoration: none;
+}
+
+#button2 a:hover{
+  color: white;
+}
+
+#button3 {
+  margin-left: auto;
+  z-index: 10;
+  background-color: #0000ff;
+  color: white;
+  border-radius: 25vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  transition: all ease 0.5s;
+  transition: all ease 1s;
+}
+
+#button3 a {
+text-decoration: none;
+}
+
+#button3 a:hover {
+  color: white;
+}
+
 
 #button.active {
   top: 1.5vh;
   position: fixed;
   display: block;
-  margin-left: 50vw;
+  margin-left: 0vw;
   z-index: 10;
   background-color: #ff5100;
+  transform: translate(2.5vw, 0);
   color: white;
-  transform: translate(-50%, 0);
   border-radius: 25vw;
   padding-top: 1vh;
   padding-bottom: 1vh;
   padding-left: 2vh;
   padding-right: 2vh;
   opacity: 100%;
+  transition: all ease 0.5s;
 }
 
 /* #button:hover{

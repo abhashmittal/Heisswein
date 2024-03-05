@@ -8,12 +8,14 @@ const viewer = new PhotoSphereViewer.Viewer({
 var mybtn = document.querySelector("#button")
 var slide = document.querySelector("#slide")
 var info = document.querySelector("#info")
+var nav = document.querySelector("#nav")
 
 mybtn.addEventListener("click", function() {
 
   slide.classList.toggle("show");
   mybtn.classList.toggle('active');
   info.classList.toggle('active');
+  nav.classList.toggle('active')
 
 
   // if (document.getElementById("slide").style.opacity = 'blue') {

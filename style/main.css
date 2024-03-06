@@ -63,7 +63,7 @@ p{
 
 h1{
   font-family: Windsor;
-  color: white;
+  color: #ff5100;
   font-size: 7vw;
   line-height: 105%;
 }
@@ -234,22 +234,38 @@ text-decoration: none;
 }
 
 @media screen and (min-width: 480px) {
+
   .show {
-    visibility: hidden;
+    margin-top: 100dvh;
+    opacity: 0;
+    transition: all ease 0.5s;
+  }
+  
+  .hide {
+    margin-top: -100dvh;
   }
   
   #slide {
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     position: absolute;
+    z-index: 3;
     display: flex;
     align-items: center;
-    mix-blend-mode: multiply;
+    vertical-align: center;
+    overflow: scroll;
+    padding-top: 10vh;
+    padding-bottom: 4vh;
+    transition: all ease 0.5s;
+  }
+  
+  #slide2 {
+    width: 100vw;
+  
   }
   
   .konzept {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 95vw;
   }
   
@@ -257,30 +273,29 @@ text-decoration: none;
   p{
     font-family: Medium;
     color: white;
-    font-size: 2.5vw;
+    font-size: 3.5vh;
     text-align: center;
-    line-height: 110%;
+    line-height: 105%;
   }
   
   h1{
     font-family: Windsor;
     color: #ff5100;
-    font-size: 3vw;
-    text-align: center;
-    line-height: 110%;
+    font-size: 6vw;
+    line-height: 105%;
   }
   
   a{
     color: white;
   }
   
-  a:hover{
+  a:hover {
     color: blue;
   }
   
   #viewer {
-    width: 100vw;
-    height: 100vh;
+    width: 100dvw;
+    height: 100dvh;
     mix-blend-mode: multiply;
   }
   
@@ -290,10 +305,29 @@ text-decoration: none;
   
   #info {
     z-index: 100;
-    position: fixed;
-    bottom: 1em;
+    position: absolute;
+    bottom: 1.5vh;
     width: 100vw;
+    overflow: hidden;
+    opacity: 100;
+    transition: all ease 0.5s;
   }
+  
+  #info.active {
+    z-index: 100;
+    position: absolute;
+    bottom: 1.5vh;
+    width: 100vw;
+    overflow: hidden;
+    opacity: 0;
+    transition: all ease 0.5s;
+  }
+  
+  
+  .hauab {
+    opacity: 0;
+  }
+  
   
   .psv-navbar {
     display: none; 
@@ -303,13 +337,30 @@ text-decoration: none;
     display: none;
   }
   
+  #nav {
+    z-index: 8;
+    position: fixed;
+    top: 1.5vh;
+    right: -75vw;
+    display: flex;
+    transition: all ease 0.5s;
+  }
+  
+  #nav.active {
+    position: fixed;
+    top: 1.5vh;
+    right: 2.5vw;
+    display: flex;
+    transition: all ease 0.5s;
+  }
+  
   #button {
     top: 1.5vh;
     position: fixed;
-    display: block;
     margin-left: 50vw;
     z-index: 10;
     background-color: #0000ff;
+    color: white;
     transform: translate(-50%, 0);
     border-radius: 25vw;
     padding-top: 1vh;
@@ -317,22 +368,84 @@ text-decoration: none;
     padding-left: 2vh;
     padding-right: 2vh;
     opacity: 100%;
+    transition: all ease 0.5s;
   }
   
-  #button:hover{
+  #button2 {
+    z-index: 10;
+    background-color: #0000ff;
+    color: white;
+    border-radius: 25vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    transition: all ease 0.5s;
+    margin-right: 1vw;
+    transition: all ease 1s;
+  }
+  
+  #button2 a {
+    text-decoration: none;
+  }
+  
+  #button2 a:hover{
+    color: white;
+  }
+  
+  #button3 {
+    margin-left: auto;
+    z-index: 10;
+    background-color: #0000ff;
+    color: white;
+    border-radius: 25vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    transition: all ease 0.5s;
+    transition: all ease 1s;
+  }
+  
+  #button3 a {
+  text-decoration: none;
+  }
+  
+  #button3 a:hover {
+    color: white;
+  }
+  
+  
+  #button.active {
+    top: 1.5vh;
+    position: fixed;
+    display: block;
+    margin-left: 0vw;
+    z-index: 10;
+    background-color: #ff5100;
+    transform: translate(2.5vw, 0);
+    color: white;
+    border-radius: 25vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    opacity: 100%;
+    transition: all ease 0.5s;
+  }
+  
+  /* #button:hover{
     background-color: white;
     color: blue;
     border: 1px solid white;
-    transform: scale(1.1);
     transform: translate(-50%, 0);
-    transition: all 4ms;
     cursor: crosshair;
-  }
+  } */
   
-  #button:hover p{
+  /* #button:hover p{
     color: blue;
-  }
+  } */
+  
+  
   
   }
-
-

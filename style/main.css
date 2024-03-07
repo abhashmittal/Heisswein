@@ -37,9 +37,10 @@ html {
   align-items: center;
   vertical-align: center;
   overflow: scroll;
-  padding-top: 10vh;
+  padding-top: 14vh;
   padding-bottom: 4vh;
   transition: all ease 0.5s;
+  /* background-color: rgba(0,0,0,40%); */
 }
 
 #slide2 {
@@ -49,7 +50,7 @@ html {
 
 .konzept {
   margin: auto;
-  width: 95vw;
+  width: 90vw;
 }
 
 
@@ -63,7 +64,7 @@ p{
 
 h1{
   font-family: Windsor;
-  color: #ff5100;
+  color: black;
   font-size: 7vw;
   line-height: 105%;
 }
@@ -79,7 +80,14 @@ a:hover {
 #viewer {
   width: 100dvw;
   height: 100dvh;
-  mix-blend-mode: multiply;
+  transition: all ease 1s;
+}
+
+#viewer.active {
+  width: 100dvw;
+  height: 100dvh;
+  opacity: 50%;
+  transition: all ease 1s;
 }
 
 #navbar {
@@ -93,7 +101,7 @@ a:hover {
   width: 100vw;
   overflow: hidden;
   opacity: 100;
-  transition: all ease 0.5s;
+  transition: all ease 2s;
 }
 
 #info.active {
@@ -103,7 +111,7 @@ a:hover {
   width: 100vw;
   overflow: hidden;
   opacity: 0;
-  transition: all ease 0.5s;
+  transition: none;
 }
 
 
@@ -254,9 +262,10 @@ text-decoration: none;
     align-items: center;
     vertical-align: center;
     overflow: scroll;
-    padding-top: 10vh;
+    padding-top: 14vh;
     padding-bottom: 4vh;
     transition: all ease 0.5s;
+    /* background-color: rgba(0,0,0,40%); */
   }
   
   #slide2 {
@@ -266,7 +275,7 @@ text-decoration: none;
   
   .konzept {
     margin: auto;
-    width: 95vw;
+    width: 75vw;
   }
   
   
@@ -275,13 +284,13 @@ text-decoration: none;
     color: white;
     font-size: 2.5vw;
     text-align: center;
-    line-height: 105%;
+    line-height: 110%;
   }
   
   h1{
     font-family: Windsor;
-    color: #ff5100;
-    font-size: 5.5vw;
+    color: black;
+    font-size: 3.5vw;
     line-height: 105%;
   }
   
@@ -294,9 +303,16 @@ text-decoration: none;
   }
   
   #viewer {
+    width: 100vw;
+    height: 100vh;
+    transition: all ease 1s;
+  }
+  
+  #viewer.active {
     width: 100dvw;
     height: 100dvh;
-    mix-blend-mode: multiply;
+    opacity: 50%;
+    transition: all ease 1s;
   }
   
   #navbar {
@@ -310,7 +326,7 @@ text-decoration: none;
     width: 100vw;
     overflow: hidden;
     opacity: 100;
-    transition: all ease 0.5s;
+    transition: all ease 2s;
   }
   
   #info.active {
@@ -320,7 +336,7 @@ text-decoration: none;
     width: 100vw;
     overflow: hidden;
     opacity: 0;
-    transition: all ease 0.5s;
+    transition: none;
   }
   
   
@@ -349,7 +365,7 @@ text-decoration: none;
   #nav.active {
     position: fixed;
     top: 1.5vh;
-    right: 2.5vw;
+    right: 15vw;
     display: flex;
     transition: all ease 0.5s;
   }
@@ -420,7 +436,7 @@ text-decoration: none;
     top: 1.5vh;
     position: fixed;
     display: block;
-    margin-left: 0vw;
+    margin-left: 10vw;
     z-index: 10;
     background-color: #ff5100;
     transform: translate(2.5vw, 0);

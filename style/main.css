@@ -158,7 +158,22 @@ a:hover {
   padding-bottom: 1vh;
   padding-left: 2vh;
   padding-right: 2vh;
-  opacity: 100%;
+  transition: all ease 0.5s;
+}
+
+#button.active {
+  top: 1.5vh;
+  position: fixed;
+  margin-left: 2.5vw;
+  z-index: 10;
+  background-color: #ff5100;
+  transform: translate(0, 0);
+  color: white;
+  border-radius: 25vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
   transition: all ease 0.5s;
 }
 
@@ -173,7 +188,6 @@ a:hover {
   padding-right: 2vh;
   transition: all ease 0.5s;
   margin-right: 1vw;
-  transition: all ease 1s;
 }
 
 #button2 a {
@@ -207,35 +221,6 @@ text-decoration: none;
 }
 
 
-#button.active {
-  top: 1.5vh;
-  position: fixed;
-  display: block;
-  margin-left: 0vw;
-  z-index: 10;
-  background-color: #ff5100;
-  transform: translate(2.5vw, 0);
-  color: white;
-  border-radius: 25vw;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  padding-left: 2vh;
-  padding-right: 2vh;
-  opacity: 100%;
-  transition: all ease 0.5s;
-}
-
-/* #button:hover{
-  background-color: white;
-  color: blue;
-  border: 1px solid white;
-  transform: translate(-50%, 0);
-  cursor: crosshair;
-} */
-
-/* #button:hover p{
-  color: blue;
-} */
 
 
 

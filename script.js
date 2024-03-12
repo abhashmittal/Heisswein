@@ -1,8 +1,12 @@
+$(document).ready(function($){
+  orientationChange();
+});
+
 const viewer = new PhotoSphereViewer.Viewer({
   container: document.querySelector('#viewer'),
   panorama: 'assets/umbau.jpg',
-  defaultZoomLvl: '30',
 });
+
 
 
 var mybtn = document.querySelector("#button")
@@ -31,4 +35,10 @@ mybtn.addEventListener("click", function() {
   // }  
 });
 
-
+function orientationChange() {
+  if(window.addEventListener) {
+      window.addEventListener("orientationchange", function() {
+          location.reload();
+      });
+  }
+}

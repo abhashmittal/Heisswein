@@ -29,7 +29,7 @@ html {
 }
 
 #slide {
-  width: 100vw;
+  width: 100dvw;
   height: 100dvh;
   position: absolute;
   z-index: 3;
@@ -43,14 +43,9 @@ html {
   /* background-color: rgba(0,0,0,40%); */
 }
 
-#slide2 {
-  width: 100vw;
-
-}
-
 .konzept {
   margin: auto;
-  width: 90vw;
+  width: 90dvw;
 }
 
 
@@ -97,8 +92,8 @@ a:hover {
 #info {
   z-index: 100;
   position: absolute;
-  bottom: 1.5vh;
-  width: 100vw;
+  bottom: 1.5dvh;
+  width: 100dvw;
   overflow: hidden;
   opacity: 100;
   transition: all ease 2s;
@@ -107,18 +102,12 @@ a:hover {
 #info.active {
   z-index: 100;
   position: absolute;
-  bottom: 1.5vh;
-  width: 100vw;
+  bottom: 1.5dvh;
+  width: 100dvw;
   overflow: hidden;
   opacity: 0;
   transition: none;
 }
-
-
-.hauab {
-  opacity: 0;
-}
-
 
 .psv-navbar {
   display: none; 
@@ -131,49 +120,49 @@ a:hover {
 #nav {
   z-index: 8;
   position: fixed;
-  top: 1.5vh;
-  right: -75vw;
+  top: 1.5dvh;
+  right: -75dvw;
   display: flex;
   transition: all ease 0.5s;
 }
 
 #nav.active {
   position: fixed;
-  top: 1.5vh;
-  right: 2.5vw;
+  top: 1.5dvh;
+  right: 2.5dvw;
   display: flex;
   transition: all ease 0.5s;
 }
 
 #button {
-  top: 1.5vh;
+  top: 1.5dvh;
   position: fixed;
-  margin-left: 50vw;
+  margin-left: 50dvw;
   z-index: 10;
   background-color: #0000ff;
   color: white;
   transform: translate(-50%, 0);
-  border-radius: 25vw;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  padding-left: 2vh;
-  padding-right: 2vh;
+  border-radius: 25dvw;
+  padding-top: 1dvh;
+  padding-bottom: 1dvh;
+  padding-left: 2dvh;
+  padding-right: 2dvh;
   transition: all ease 0.5s;
 }
 
 #button.active {
-  top: 1.5vh;
+  top: 1.5dvh;
   position: fixed;
-  margin-left: 2.5vw;
+  margin-left: 2.5dvw;
   z-index: 10;
   background-color: #ff5100;
   transform: translate(0, 0);
   color: white;
-  border-radius: 25vw;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  padding-left: 2vh;
-  padding-right: 2vh;
+  border-radius: 25dvw;
+  padding-top: 1dvh;
+  padding-bottom: 1dvh;
+  padding-left: 2dvh;
+  padding-right: 2dvh;
   transition: all ease 0.5s;
 }
 
@@ -181,13 +170,13 @@ a:hover {
   z-index: 10;
   background-color: #0000ff;
   color: white;
-  border-radius: 25vw;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  padding-left: 2vh;
-  padding-right: 2vh;
+  border-radius: 25dvw;
+  padding-top: 1dvh;
+  padding-bottom: 1dvh;
+  padding-left: 2dvh;
+  padding-right: 2dvh;
   transition: all ease 0.5s;
-  margin-right: 1vw;
+  margin-right: 1dvw;
 }
 
 #button2 a {
@@ -203,11 +192,11 @@ a:hover {
   z-index: 10;
   background-color: #0000ff;
   color: white;
-  border-radius: 25vw;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  padding-left: 2vh;
-  padding-right: 2vh;
+  border-radius: 25dvw;
+  padding-top: 1dvh;
+  padding-bottom: 1dvh;
+  padding-left: 2dvh;
+  padding-right: 2dvh;
   transition: all ease 0.5s;
   transition: all ease 1s;
 }
@@ -239,7 +228,7 @@ text-decoration: none;
   }
   
   #slide {
-    width: 100vw;
+    width: 100dvw;
     height: 100dvh;
     position: absolute;
     z-index: 3;
@@ -253,21 +242,16 @@ text-decoration: none;
     /* background-color: rgba(0,0,0,40%); */
   }
   
-  #slide2 {
-    width: 100vw;
-  
-  }
-  
   .konzept {
     margin: auto;
-    width: 75vw;
+    width: 75dvw;
   }
   
   
   p{
     font-family: Medium;
     color: white;
-    font-size: 2vw;
+    font-size: 2dvw;
     text-align: center;
     line-height: 110%;
   }
@@ -275,7 +259,7 @@ text-decoration: none;
   h1{
     font-family: Windsor;
     color: black;
-    font-size: 3vw;
+    font-size: 3dvw;
     line-height: 105%;
   }
   
@@ -288,14 +272,14 @@ text-decoration: none;
   }
   
   #viewer {
-    width: 100vw;
-    height: 100vh;
+    width: 100dvw;
+    height: 100dvh;
     transition: all ease 1s;
   }
   
   #viewer.active {
-    width: 100vw;
-    height: 100vh;
+    width: 100dvw;
+    height: 100dvh;
     opacity: 50%;
     transition: all ease 1s;
   }
@@ -307,8 +291,8 @@ text-decoration: none;
   #info {
     z-index: 100;
     position: absolute;
-    bottom: 1.5vh;
-    width: 100vw;
+    bottom: 1.5dvh;
+    width: 100dvw;
     overflow: hidden;
     opacity: 100;
     transition: all ease 2s;
@@ -317,8 +301,8 @@ text-decoration: none;
   #info.active {
     z-index: 100;
     position: absolute;
-    bottom: 1.5vh;
-    width: 100vw;
+    bottom: 1.5dvh;
+    width: 100dvw;
     overflow: hidden;
     opacity: 0;
     transition: none;
@@ -341,50 +325,50 @@ text-decoration: none;
   #nav {
     z-index: 8;
     position: fixed;
-    top: 1.5vh;
-    right: -75vw;
+    top: 1.5dvh;
+    right: -75dvw;
     display: flex;
     transition: all ease 0.5s;
   }
   
   #nav.active {
     position: fixed;
-    top: 1.5vh;
-    right: 15vw;
+    top: 1.5dvh;
+    right: 15dvw;
     display: flex;
     transition: all ease 0.5s;
   }
   
   #button {
-    top: 1.5vh;
+    top: 1.5dvh;
     position: fixed;
-    margin-left: 50vw;
+    margin-left: 50dvw;
     z-index: 10;
     background-color: #0000ff;
     color: white;
     transform: translate(-50%, 0);
-    border-radius: 25vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    border-radius: 25dvw;
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
     opacity: 100%;
     transition: all ease 0.25s;
   }
 
   #button:hover {
-    top: 1.5vh;
+    top: 1.5dvh;
     position: fixed;
-    margin-left: 50vw;
+    margin-left: 50dvw;
     z-index: 10;
     background-color: white;
     color: #0000ff;
     transform: translate(-50%, 0);
-    border-radius: 25vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    border-radius: 25dvw;
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
     opacity: 100%;
   }
 
@@ -397,24 +381,24 @@ text-decoration: none;
     z-index: 10;
     background-color: #0000ff;
     color: white;
-    border-radius: 25vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
-    margin-right: 1vw;
+    border-radius: 25dvw;
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
+    margin-right: 1dvw;
   }
 
   #button2:hover {
     z-index: 10;
     background-color: white;
     color: white;
-    border-radius: 25vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
-    margin-right: 1vw;
+    border-radius: 25dvw;
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
+    margin-right: 1dvw;
   }
   
   #button2 a {
@@ -427,11 +411,11 @@ text-decoration: none;
     z-index: 10;
     background-color: #0000ff;
     color: white;
-    border-radius: 25vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    border-radius: 25dvw;
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
   }
 
   #button3:hover {
@@ -439,11 +423,11 @@ text-decoration: none;
     z-index: 10;
     background-color: white;
     color: white;
-    border-radius: 25vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    border-radius: 25dvw;
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
   }
   
   #button3 a {
@@ -452,19 +436,19 @@ text-decoration: none;
   
   
   #button.active {
-    top: 1.5vh;
+    top: 1.5dvh;
     position: fixed;
     display: block;
-    margin-left: 10vw;
+    margin-left: 10dvw;
     z-index: 10;
     background-color: #ff5100;
-    transform: translate(2.5vw, 0);
+    transform: translate(2.5dvw, 0);
     color: white;
-    border-radius: 25vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    border-radius: 25dvw;
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
     opacity: 100%;
     transition: all ease 0.25s;
   }

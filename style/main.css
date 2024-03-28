@@ -262,30 +262,41 @@ text-decoration: none;
     align-items: center;
     vertical-align: center;
     overflow: scroll;
-    padding-top: 10vh;
-    padding-bottom: 4vh;
+    padding-top: 25vh;
+    padding-bottom: 8vh;
     transition: all ease 0.5s;
     /* background-color: rgba(0,0,0,40%); */
   }
   
   .konzept {
     margin: auto;
-    width: 75dvw;
+    width: 60dvw;
+  }
+  
+  .konzept img {
+    mix-blend-mode: screen;
+    padding-top: 1.5dvh;
+    padding-bottom: 1.5dvh;
+  }
+  
+  .as {
+    width: 40%;
+    mix-blend-mode: screen;
   }
   
   
   p{
     font-family: Medium;
     color: white;
-    font-size: 2dvw;
+    font-size: 1.75vw;
     text-align: center;
     line-height: 110%;
   }
   
   h1{
     font-family: Windsor;
-    color: black;
-    font-size: 3dvw;
+    color: white;
+    font-size: 3.25vw;
     line-height: 105%;
   }
   
@@ -303,9 +314,24 @@ text-decoration: none;
     transition: all ease 1s;
   }
   
-  #viewer.active {
+  #overlay {
     width: 100dvw;
     height: 100dvh;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 2;
+    opacity: 0%;
+    transition: all ease 1s;
+  }
+  
+  #overlay.active {
+    width: 100dvw;
+    height: 100dvh;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 2;
     opacity: 50%;
     transition: all ease 1s;
   }
@@ -334,12 +360,6 @@ text-decoration: none;
     transition: none;
   }
   
-  
-  .hauab {
-    opacity: 0;
-  }
-  
-  
   .psv-navbar {
     display: none; 
   }
@@ -360,7 +380,7 @@ text-decoration: none;
   #nav.active {
     position: fixed;
     top: 1.5dvh;
-    right: 15dvw;
+    right: 2.5dvw;
     display: flex;
     transition: all ease 0.5s;
   }
@@ -378,29 +398,23 @@ text-decoration: none;
     padding-bottom: 1dvh;
     padding-left: 2dvh;
     padding-right: 2dvh;
-    opacity: 100%;
-    transition: all ease 0.25s;
+    transition: all ease 0.5s;
   }
-
-  #button:hover {
+  
+  #button.active {
     top: 1.5dvh;
     position: fixed;
-    margin-left: 50dvw;
+    margin-left: 2.5dvw;
     z-index: 10;
-    background-color: white;
-    color: #0000ff;
-    transform: translate(-50%, 0);
+    background-color: #ff5100;
+    transform: translate(0, 0);
+    color: white;
     border-radius: 25dvw;
     padding-top: 1dvh;
     padding-bottom: 1dvh;
     padding-left: 2dvh;
     padding-right: 2dvh;
-    opacity: 100%;
-  }
-
-  #button:hover p {
-    color: #0000ff;
-    transition: all ease 0.25s;
+    transition: all ease 0.5s;
   }
   
   #button2 {
@@ -412,18 +426,7 @@ text-decoration: none;
     padding-bottom: 1dvh;
     padding-left: 2dvh;
     padding-right: 2dvh;
-    margin-right: 1dvw;
-  }
-
-  #button2:hover {
-    z-index: 10;
-    background-color: white;
-    color: white;
-    border-radius: 25dvw;
-    padding-top: 1dvh;
-    padding-bottom: 1dvh;
-    padding-left: 2dvh;
-    padding-right: 2dvh;
+    transition: all ease 0.5s;
     margin-right: 1dvw;
   }
   
@@ -431,6 +434,9 @@ text-decoration: none;
     text-decoration: none;
   }
   
+  #button2 a:hover{
+    color: white;
+  }
   
   #button3 {
     margin-left: auto;
@@ -442,42 +448,19 @@ text-decoration: none;
     padding-bottom: 1dvh;
     padding-left: 2dvh;
     padding-right: 2dvh;
-  }
-
-  #button3:hover {
-    margin-left: auto;
-    z-index: 10;
-    background-color: white;
-    color: white;
-    border-radius: 25dvw;
-    padding-top: 1dvh;
-    padding-bottom: 1dvh;
-    padding-left: 2dvh;
-    padding-right: 2dvh;
+    transition: all ease 0.5s;
+    transition: all ease 1s;
   }
   
   #button3 a {
   text-decoration: none;
   }
   
-  
-  #button.active {
-    top: 1.5dvh;
-    position: fixed;
-    display: block;
-    margin-left: 10dvw;
-    z-index: 10;
-    background-color: #ff5100;
-    transform: translate(2.5dvw, 0);
+  #button3 a:hover {
     color: white;
-    border-radius: 25dvw;
-    padding-top: 1dvh;
-    padding-bottom: 1dvh;
-    padding-left: 2dvh;
-    padding-right: 2dvh;
-    opacity: 100%;
-    transition: all ease 0.25s;
   }
+  
+  
   
   
   

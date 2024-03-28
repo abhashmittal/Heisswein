@@ -107,7 +107,7 @@ a:hover {
   top: 0;
   background-color: black;
   z-index: 2;
-  opacity: 50%;
+  opacity: 60%;
   transition: all ease 1s;
 }
 
@@ -332,7 +332,7 @@ text-decoration: none;
     top: 0;
     background-color: black;
     z-index: 2;
-    opacity: 50%;
+    opacity: 60%;
     transition: all ease 1s;
   }
   

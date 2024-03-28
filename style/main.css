@@ -50,6 +50,7 @@ html {
 
 .konzept img {
   mix-blend-mode: screen;
+  padding-bottom: 1.5dvh;
 }
 
 .as {

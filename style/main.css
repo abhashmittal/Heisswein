@@ -37,15 +37,24 @@ html {
   align-items: center;
   vertical-align: center;
   overflow: scroll;
-  padding-top: 14vh;
-  padding-bottom: 4vh;
+  padding-top: 16vh;
+  padding-bottom: 8vh;
   transition: all ease 0.5s;
   /* background-color: rgba(0,0,0,40%); */
 }
 
 .konzept {
   margin: auto;
-  width: 90dvw;
+  width: 95dvw;
+}
+
+.konzept img {
+  mix-blend-mode: screen;
+}
+
+.as {
+  width: 100%;
+  mix-blend-mode: screen;
 }
 
 

@@ -55,7 +55,7 @@ html {
 }
 
 .as {
-  width: 100%;
+  width: 60%;
   mix-blend-mode: screen;
 }
 
@@ -71,7 +71,7 @@ p{
 h1{
   font-family: Windsor;
   color: white;
-  font-size: 7vw;
+  font-size: 6.5vw;
   line-height: 105%;
 }
 

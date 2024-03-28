@@ -59,7 +59,7 @@ p{
 
 h1{
   font-family: Windsor;
-  color: black;
+  color: white;
   font-size: 7vw;
   line-height: 105%;
 }
@@ -78,9 +78,24 @@ a:hover {
   transition: all ease 1s;
 }
 
-#viewer.active {
+#overlay {
   width: 100dvw;
   height: 100dvh;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  z-index: 2;
+  opacity: 0%;
+  transition: all ease 1s;
+}
+
+#overlay.active {
+  width: 100dvw;
+  height: 100dvh;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  z-index: 2;
   opacity: 50%;
   transition: all ease 1s;
 }

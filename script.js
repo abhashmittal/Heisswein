@@ -14,6 +14,7 @@ var slide = document.querySelector("#slide")
 var info = document.querySelector("#info")
 var nav = document.querySelector("#nav")
 var view = document.querySelector("#viewer")
+var overlay = document.querySelector("#overlay")
 
 mybtn.addEventListener("click", function() {
 
@@ -21,7 +22,7 @@ mybtn.addEventListener("click", function() {
   mybtn.classList.toggle('active');
   info.classList.toggle('active');
   nav.classList.toggle('active');
-  view.classList.toggle('active')
+  overlay.classList.toggle('active')
 
 
   // if (document.getElementById("slide").style.opacity = 'blue') {

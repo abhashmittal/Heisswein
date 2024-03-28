@@ -492,7 +492,7 @@ text-decoration: none;
     
     .konzept {
       margin: auto;
-      width: 60dvw;
+      width: 40dvw;
     }
     
     .konzept img {
@@ -502,8 +502,7 @@ text-decoration: none;
     }
     
     .as {
-      width: 40%;
-      mix-blend-mode: screen;
+      width: 25%;
     }
     
     

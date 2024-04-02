@@ -396,6 +396,24 @@ text-decoration: none;
     padding-left: 2dvh;
     padding-right: 2dvh;
     transition: all ease 0.5s;
+    cursor: crosshair;
+  }
+
+  #button:hover {
+    top: 1.5dvh;
+    position: fixed;
+    margin-left: 50dvw;
+    z-index: 10;
+    background-color: #0000ff;
+    color: white;
+    transform: translate(-50%, 0);
+    border-radius: 25dvw;
+    padding-top: 1.25dvh;
+    padding-bottom: 1.25dvh;
+    padding-left: 2.5dvh;
+    padding-right: 2.5dvh;
+    transition: all ease 0.25s;
+    cursor: crosshair;
   }
   
   #button.active {
@@ -412,6 +430,24 @@ text-decoration: none;
     padding-left: 2dvh;
     padding-right: 2dvh;
     transition: all ease 0.5s;
+    cursor: crosshair;
+  }
+
+  #button.active:hover {
+    top: 1.5dvh;
+    position: fixed;
+    margin-left: 2.5dvw;
+    z-index: 10;
+    background-color: #ff5100;
+    transform: translate(0, 0);
+    color: white;
+    border-radius: 25dvw;
+    padding-top: 1.25dvh;
+    padding-bottom: 1.25dvh;
+    padding-left: 2.5dvh;
+    padding-right: 2.5dvh;
+    transition: all ease 0.25s;
+    cursor: crosshair;
   }
   
   #button2 {
@@ -423,6 +459,19 @@ text-decoration: none;
     padding-bottom: 1dvh;
     padding-left: 2dvh;
     padding-right: 2dvh;
+    transition: all ease 0.5s;
+    margin-right: 1dvw;
+  }
+
+  #button2:hover {
+    z-index: 10;
+    background-color: #0000ff;
+    color: white;
+    border-radius: 25dvw;
+    padding-top: 1.25dvh;
+    padding-bottom: 1.25dvh;
+    padding-left: 2.5dvh;
+    padding-right: 2.5dvh;
     transition: all ease 0.5s;
     margin-right: 1dvw;
   }
@@ -445,6 +494,20 @@ text-decoration: none;
     padding-bottom: 1dvh;
     padding-left: 2dvh;
     padding-right: 2dvh;
+    transition: all ease 0.5s;
+    transition: all ease 1s;
+  }
+
+  #button3:hover {
+    margin-left: auto;
+    z-index: 10;
+    background-color: #0000ff;
+    color: white;
+    border-radius: 25dvw;
+    padding-top: 1.25dvh;
+    padding-bottom: 1.25dvh;
+    padding-left: 2.5dvh;
+    padding-right: 2.5dvh;
     transition: all ease 0.5s;
     transition: all ease 1s;
   }

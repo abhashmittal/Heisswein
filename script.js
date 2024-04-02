@@ -5,7 +5,7 @@ $(document).ready(function($){
 const viewer = new PhotoSphereViewer.Viewer({
   container: document.querySelector('#viewer'),
   panorama: 'assets/preservice2.jpg',
-  defaultZoomLvl: '40',
+  defaultZoomLvl: '20',
 });
 
 

@@ -4,7 +4,7 @@ $(document).ready(function($){
 
 const viewer = new PhotoSphereViewer.Viewer({
   container: document.querySelector('#viewer'),
-  panorama: 'assets/heisswein_preservice.jpg',
+  panorama: 'assets/preservice.jpg',
 });
 
 

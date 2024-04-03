@@ -8,8 +8,6 @@ const viewer = new PhotoSphereViewer.Viewer({
   defaultZoomLvl: '20',
 });
 
-
-
 var mybtn = document.querySelector("#button")
 var slide = document.querySelector("#slide")
 var info = document.querySelector("#info")
@@ -24,17 +22,6 @@ mybtn.addEventListener("click", function() {
   info.classList.toggle('active');
   nav.classList.toggle('active');
   overlay.classList.toggle('active')
-
-
-  // if (document.getElementById("slide").style.opacity = 'blue') {
-  // document.getElementById("button").style.backgroundColor = '#ff5100',
-  // document.getElementById("info").style.visibility = 'hidden',
-  // slide.classList.toggle("show");
-  // } else {
-  //   slide.classList.toggle("show"),
-  //   document.getElementById("button").style.backgroundColor = 'blue'
-  //   document.getElementById("info").style.visibility = 'hidden'
-  // }  
 });
 
 function orientationChange() {

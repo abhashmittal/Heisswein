@@ -562,12 +562,12 @@ text-decoration: none;
       padding-top: 25vh;
       padding-bottom: 8vh;
       transition: all ease 0.5s;
-      /* background-color: rgba(0,0,0,40%); */
     }
     
     .konzept {
       margin: auto;
       width: 40dvw;
+      cursor: default;
     }
     
     .konzept img {
@@ -602,6 +602,7 @@ text-decoration: none;
     
     a:hover {
       color: blue;
+      cursor: pointer;
     }
     
     #viewer {
@@ -686,13 +687,14 @@ text-decoration: none;
       z-index: 10;
       background-color: #0000ff;
       color: white;
+      transform-origin: left center;
       transform: translate(-50%, 0);
       border-radius: 25dvw;
       padding-top: 0.75dvh;
       padding-bottom: 0.75dvh;
       padding-left: 1.5dvh;
       padding-right: 1.5dvh;
-      transition: all ease 0.5s;
+      transition: all ease 0.25s;
     }
 
     #button:hover {
@@ -702,13 +704,15 @@ text-decoration: none;
       z-index: 10;
       background-color: #0000ff;
       color: white;
-      transform: translate(-50%, 0);
+      transform-origin: left center;
+      transform: scale(1.05) translate(-50%, 0);
       border-radius: 25dvw;
-      padding-top: 0.9375dvh;
-      padding-bottom: 0.9375dvh;
-      padding-left: 1.875dvh;
-      padding-right: 1.875dvh;
+      padding-top: 0.75dvh;
+      padding-bottom: 0.75dvh;
+      padding-left: 1.5dvh;
+      padding-right: 1.5dvh;
       transition: all ease 0.25s;
+      cursor: pointer;
     }
     
     #button.active {
@@ -724,7 +728,7 @@ text-decoration: none;
       padding-bottom: 0.75dvh;
       padding-left: 1.5dvh;
       padding-right: 1.5dvh;
-      transition: all ease 0.5s;
+      transition: all ease 0.25s;
     }
 
     #button.active:hover {
@@ -733,14 +737,15 @@ text-decoration: none;
       margin-left: 2.5dvw;
       z-index: 10;
       background-color: #ff5100;
-      transform: translate(0, 0);
       color: white;
+      transform: scale(1.05) translate(-50%, 0);
       border-radius: 25dvw;
-      padding-top: 0.9375dvh;
-      padding-bottom: 0.9375dvh;
-      padding-left: 1.875dvh;
-      padding-right: 1.875dvh;
-      transition: all ease 0.5s;
+      padding-top: 0.75dvh;
+      padding-bottom: 0.75dvh;
+      padding-left: 1.5dvh;
+      padding-right: 1.5dvh;
+      transition: all ease 0.25s;
+      cursor: pointer;
     }
     
     #button2 {
@@ -752,7 +757,7 @@ text-decoration: none;
       padding-bottom: 0.75dvh;
       padding-left: 1.5dvh;
       padding-right: 1.5dvh;
-      transition: all ease 0.5s;
+      transition: all ease 0.25s;
       margin-right: 1dvw;
     }
 
@@ -761,12 +766,14 @@ text-decoration: none;
       background-color: #0000ff;
       color: white;
       border-radius: 25dvw;
-      padding-top: 0.9375dvh;
-      padding-bottom: 0.9375dvh;
-      padding-left: 1.875dvh;
-      padding-right: 1.875dvh;
-      transition: all ease 0.5s;
+      transform: scale(1.05);
+      padding-top: 0.75dvh;
+      padding-bottom: 0.75dvh;
+      padding-left: 1.5dvh;
+      padding-right: 1.5dvh;
+      transition: all ease 0.25s;
       margin-right: 1dvw;
+      cursor: pointer;
     }
     
     #button2 a {
@@ -775,6 +782,7 @@ text-decoration: none;
     
     #button2 a:hover{
       color: white;
+      cursor: pointer;
     }
     
     #button3 {
@@ -788,7 +796,6 @@ text-decoration: none;
       padding-left: 1.5dvh;
       padding-right: 1.5dvh;
       transition: all ease 0.5s;
-      transition: all ease 1s;
     }
 
     #button3:hover {
@@ -797,12 +804,13 @@ text-decoration: none;
       background-color: #0000ff;
       color: white;
       border-radius: 25dvw;
-      padding-top: 0.9375dvh;
-      padding-bottom: 0.9375dvh;
-      padding-left: 1.875dvh;
-      padding-right: 1.875dvh;
-      transition: all ease 0.5s;
-      transition: all ease 1s;
+      transform: scale(1.05);
+      padding-top: 0.75dvh;
+      padding-bottom: 0.75dvh;
+      padding-left: 1.5dvh;
+      padding-right: 1.5dvh;
+      transition: all ease 0.25s;
+      cursor: pointer;
     }
     
     #button3 a {
@@ -811,6 +819,7 @@ text-decoration: none;
     
     #button3 a:hover {
       color: white;
+      cursor: pointer;
     }
     
     

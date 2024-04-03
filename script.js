@@ -4,8 +4,9 @@ $(document).ready(function($){
 
 const viewer = new PhotoSphereViewer.Viewer({
   container: document.querySelector('#viewer'),
-  panorama: 'assets/preservice5.jpg',
+  panorama: 'assets/preservice6.jpg',
   defaultZoomLvl: '20',
+  fisheye: 'true',
 });
 
 

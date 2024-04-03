@@ -307,7 +307,7 @@ text-decoration: none;
   
   a:hover {
     color: blue;
-    cursor: crosshair;
+    cursor: pointer;
   }
   
   #viewer {

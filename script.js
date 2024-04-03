@@ -8,6 +8,7 @@ const viewer = new PhotoSphereViewer.Viewer({
   defaultZoomLvl: '20',
 });
 
+
 var mybtn = document.querySelector("#button")
 var slide = document.querySelector("#slide")
 var info = document.querySelector("#info")
@@ -23,6 +24,22 @@ mybtn.addEventListener("click", function() {
   nav.classList.toggle('active');
   overlay.classList.toggle('active')
 });
+
+slide.addEventListener("click", function(){
+
+  if ($(".konzept:hover").length != 0){
+
+  } else {
+  slide.classList.toggle("show");
+  mybtn.classList.toggle('active');
+  info.classList.toggle('active');
+  nav.classList.toggle('active');
+  overlay.classList.toggle('active')
+}
+
+});
+
+
 
 function orientationChange() {
   if(window.addEventListener) {

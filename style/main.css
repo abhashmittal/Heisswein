@@ -268,8 +268,10 @@ text-decoration: none;
   }
   
   .konzept {
+    z-index: 4;
     margin: auto;
     width: 60dvw;
+    cursor: default;
   }
   
   .konzept img {
@@ -305,6 +307,7 @@ text-decoration: none;
   
   a:hover {
     color: blue;
+    cursor: crosshair;
   }
   
   #viewer {
@@ -345,6 +348,7 @@ text-decoration: none;
     overflow: hidden;
     opacity: 100;
     transition: all ease 2s;
+    cursor: default;
   }
   
   #info.active {
@@ -389,14 +393,15 @@ text-decoration: none;
     z-index: 10;
     background-color: #0000ff;
     color: white;
+    transform-origin: left center;
     transform: translate(-50%, 0);
     border-radius: 25dvw;
     padding-top: 1dvh;
     padding-bottom: 1dvh;
     padding-left: 2dvh;
     padding-right: 2dvh;
-    transition: all ease 0.5s;
-    cursor: crosshair;
+    transition: all ease 0.25s;
+    cursor: pointer;
   }
 
   #button:hover {
@@ -406,14 +411,15 @@ text-decoration: none;
     z-index: 10;
     background-color: #0000ff;
     color: white;
-    transform: translate(-50%, 0);
+    transform-origin: left center;
+    transform: scale(1.03) translate(-50%, 0);
     border-radius: 25dvw;
-    padding-top: 1.25dvh;
-    padding-bottom: 1.25dvh;
-    padding-left: 2.5dvh;
-    padding-right: 2.5dvh;
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
     transition: all ease 0.25s;
-    cursor: crosshair;
+    cursor: pointer;
   }
   
   #button.active {
@@ -422,6 +428,7 @@ text-decoration: none;
     margin-left: 2.5dvw;
     z-index: 10;
     background-color: #ff5100;
+    transform-origin: center center;
     transform: translate(0, 0);
     color: white;
     border-radius: 25dvw;
@@ -429,8 +436,8 @@ text-decoration: none;
     padding-bottom: 1dvh;
     padding-left: 2dvh;
     padding-right: 2dvh;
-    transition: all ease 0.5s;
-    cursor: crosshair;
+    transition: all ease 0.25s;
+    cursor: pointer;
   }
 
   #button.active:hover {
@@ -439,15 +446,16 @@ text-decoration: none;
     margin-left: 2.5dvw;
     z-index: 10;
     background-color: #ff5100;
-    transform: translate(0, 0);
+    transform-origin: center center;
+    transform: scale(1.03) translate(0, 0);
     color: white;
     border-radius: 25dvw;
-    padding-top: 1.25dvh;
-    padding-bottom: 1.25dvh;
-    padding-left: 2.5dvh;
-    padding-right: 2.5dvh;
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
     transition: all ease 0.25s;
-    cursor: crosshair;
+    cursor: pointer;
   }
   
   #button2 {
@@ -459,7 +467,7 @@ text-decoration: none;
     padding-bottom: 1dvh;
     padding-left: 2dvh;
     padding-right: 2dvh;
-    transition: all ease 0.5s;
+    transition: all ease 0.25s;
     margin-right: 1dvw;
   }
 
@@ -468,12 +476,14 @@ text-decoration: none;
     background-color: #0000ff;
     color: white;
     border-radius: 25dvw;
-    padding-top: 1.25dvh;
-    padding-bottom: 1.25dvh;
-    padding-left: 2.5dvh;
-    padding-right: 2.5dvh;
-    transition: all ease 0.5s;
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
+    transform: scale(1.03);
+    transition: all ease 0.25s;
     margin-right: 1dvw;
+    cursor: pointer;
   }
   
   #button2 a {
@@ -482,6 +492,7 @@ text-decoration: none;
   
   #button2 a:hover{
     color: white;
+    cursor: pointer;
   }
   
   #button3 {
@@ -494,8 +505,7 @@ text-decoration: none;
     padding-bottom: 1dvh;
     padding-left: 2dvh;
     padding-right: 2dvh;
-    transition: all ease 0.5s;
-    transition: all ease 1s;
+    transition: all ease 0.25s;
   }
 
   #button3:hover {
@@ -504,12 +514,13 @@ text-decoration: none;
     background-color: #0000ff;
     color: white;
     border-radius: 25dvw;
-    padding-top: 1.25dvh;
-    padding-bottom: 1.25dvh;
-    padding-left: 2.5dvh;
-    padding-right: 2.5dvh;
-    transition: all ease 0.5s;
-    transition: all ease 1s;
+    padding-top: 1dvh;
+    padding-bottom: 1dvh;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
+    transform: scale(1.03);
+    transition: all ease 0.25s;
+    cursor: pointer;
   }
   
   #button3 a {
@@ -518,6 +529,7 @@ text-decoration: none;
   
   #button3 a:hover {
     color: white;
+    cursor: pointer;
   }
   
   

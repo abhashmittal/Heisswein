@@ -19,7 +19,7 @@ async function checkImageExists(imagePath) {
     const response = await fetch(imagePath, { method: 'HEAD' });
     return response.ok; // true if the image exists
   } catch (error) {
-    let toggleContentBasedOnImage = ('assets/double-trouble_23.png');
+    let toggleContentBasedOnImage = ('pop/scan.jpg');
   }
 }
 
@@ -29,11 +29,11 @@ async function toggleContentBasedOnImage(imagePath) {
   const imageExists = await checkImageExists(imagePath);
 
   if (imageExists) {
- 
-  } else {
     popup.classList.toggle('active');
     sitenav.classList.toggle('active');
     karte.classList.toggle('active');
+  } else {
+
   }
 }
 
